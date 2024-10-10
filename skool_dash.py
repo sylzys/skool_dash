@@ -104,7 +104,7 @@ df_paginated = df_paginated.rename(columns={
 })
 
 # Reorder columns
-df_paginated = df_paginated[['Topic Link', 'Topic', 'Skool Rank', 'Topic Rank', 'Visibility', 'Members', 'Price', 'Description']]
+df_paginated = df_paginated[['Community Name', 'Topic', 'Skool Rank', 'Topic Rank', 'Visibility', 'Members', 'Price', 'Description']]
 
 # Display filtered data with all columns, including clickable links
 st.subheader('Filtered Data')
